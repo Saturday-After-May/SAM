@@ -1,0 +1,102 @@
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-areas:
+"head head head"
+"side main main"
+"side article article"
+"foot foot foot"
+}
+
+header { grid-area: head; }
+aside { grid-area: side; }
+main { grid-area: main; }
+footer { grid-area: foot; }
+article { grid-area: article;}
+			
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
+
+/*header stuff*/
+
+header {
+  background-color: black;
+  border: 5px double #cc3300;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 8px;
+}
+
+main {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  border: 5px double #cc3300;
+  padding: 15px;
+  display: block;
+  margin: 8px;
+  
+}
+
+article {
+  display: block;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  border: 5px double #cc3300;
+  padding: 15px;
+  margin: 8px;
+}
+
+aside {
+  background-color: rgb(0, 0, 0, 0.8);
+  border: 5px double #cc3300;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 8px;
+}
+
+container {
+  background-color: rgb(0, 0, 0, 0.8);
+  border: 2px double #cc3300;
+  color: white;
+  padding: 15px;
+  display: block;
+}
+
+footer {
+  background-color: black;
+  border: 5px double #cc3300;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 8px;
+}
+
+a{
+  color: #e35d28;
+}
